@@ -29,27 +29,27 @@ Scriptul `backup.sh` primește ca parametri:
 ```bash
 ./backup.sh /home/user
 ```
-![Screenshot](images/screenshot1.png)
+![Screenshot](images/Screenshot1.png)
 
 **Backup cu director personalizat:**
 ```bash
 ./backup.sh /home/user /home/user/my_backups
 ```
-![Screenshot](images/screenshot2.png)
+![Screenshot](images/Screenshot2.png)
 
 **Backup pentru configurări sistem:**
 ```bash
 ./backup.sh /etc /var/backups
 ```
 
-![Screenshot](images/screenshot3.png)
+![Screenshot](images/Screenshot3.png)
 
 ### Format nume fișier
 Arhivele create vor avea formatul:
 ```
 <nume_director>_<AAAAMMZZ_HHMMSS>.tar.gz
 ```
-![Screenshot](images/screenshot4.png)
+![Screenshot](images/Screenshot4.png)
 
 ## Mesaje de eroare
 
